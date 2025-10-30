@@ -28,12 +28,6 @@ For this analysis, only the **Close price** was used because it reflects market 
 
 ---
 
-## 🧮 Methods
-
-### 1️⃣ Data Visualization
-:
-
-## 🧮 Methods
 
 ### 1️⃣ Data Visualization
 ```r
