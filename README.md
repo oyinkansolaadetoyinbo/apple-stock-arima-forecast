@@ -86,6 +86,8 @@ Constant variance
 
 Approximate normality
 
+---
+
 ## 📊 Results and Discussion
 
 The ARIMA model successfully captured Apple Inc.’s stock price dynamics, showing a strong alignment between historical trends and forecasted values.  
@@ -99,6 +101,8 @@ Key observations:
 
 This outcome validates the suitability of ARIMA for short-term stock forecasting and demonstrates its potential in financial time series modeling.
 
+---
+
 ## 🧾 Conclusion and Recommendations
 
 The ARIMA-based time series analysis of Apple Inc.’s stock prices effectively demonstrated how historical patterns can forecast short-term market behavior.  
@@ -109,16 +113,22 @@ The model met key assumptions of stationarity and independence, produced accurat
 - **For Analysts:** Incorporate additional explanatory variables (e.g., NASDAQ index, inflation rate, global market indicators) to enhance predictive accuracy.  
 - **For Ongoing Work:** Update the model regularly with new data to maintain relevance and reliability as market conditions evolve.
 
+---
+
 ## 📚 References
 
 - Cheng, D. et al. (2022). *Financial time series forecasting with multi-modality graph neural network.* **Pattern Recognition, 121**, 108218. [https://doi.org/10.1016/j.patcog.2021.108218](https://doi.org/10.1016/j.patcog.2021.108218)
 
 - Kaur, J., Parmar, K.S., & Singh, S. (2023). *Autoregressive models in environmental forecasting time series: a theoretical and application review.* **Environmental Science and Pollution Research, 30(8)**, 19617–19641. [https://doi.org/10.1007/s11356-023-25148-9](https://doi.org/10.1007/s11356-023-25148-9)
+
+--
+
 ## 👤 Author
 
 **Oyin**  
 _Data Analyst & Researcher_  
 📊 [GitHub Profile](https://github.com/oyinkansolaadetoyinbo)
+
 
 
 
