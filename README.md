@@ -82,6 +82,23 @@ Residual diagnostics confirmed:
 - Constant variance  
 - Approximate normality  
 
+## 📈 Visual Outputs
+
+### 1️⃣ Apple Inc. Close Price Over Time
+![Apple Close Prices](https://github.com/oyinkansolaadetoyinbo/apple-stock-arima-forecast/blob/main/results/figures/Picture1.png?raw=true)
+
+### 2️⃣ Decomposition of Time Series
+![Decomposition](https://github.com/oyinkansolaadetoyinbo/apple-stock-arima-forecast/blob/main/results/figures/Picture2.png?raw=true)
+
+### 3️⃣ Differenced Time Series
+![Differenced Series](https://github.com/oyinkansolaadetoyinbo/apple-stock-arima-forecast/blob/main/results/figures/Picture3.png?raw=true)
+
+### 4️⃣ Model Diagnostics
+![Residuals](https://github.com/oyinkansolaadetoyinbo/apple-stock-arima-forecast/blob/main/results/figures/Picture4.png?raw=true)
+
+### 5️⃣ Forecast Plot
+![Forecast](https://github.com/oyinkansolaadetoyinbo/apple-stock-arima-forecast/blob/main/results/figures/Picture5.png?raw=true)
+
 ---
 
 ## 📊 Results and Discussion
