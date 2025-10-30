@@ -76,15 +76,11 @@ This approach ensures an optimal balance between model accuracy and complexity.
 
 5️⃣ Model Diagnostics
 checkresiduals(model)
-
-
 Residual diagnostics confirmed:
 
-Independence (no autocorrelation)
-
-Constant variance
-
-Approximate normality
+- Independence (no autocorrelation)  
+- Constant variance  
+- Approximate normality  
 
 ---
 
@@ -93,13 +89,13 @@ Approximate normality
 The ARIMA model successfully captured Apple Inc.’s stock price dynamics, showing a strong alignment between historical trends and forecasted values.  
 The 30-day forecast continued the upward trajectory seen in the historical data, reflecting investor confidence and Apple’s sustained innovation.
 
-Key observations:
-- **Consistent Growth:** The model reinforced Apple’s long-term upward momentum, with only minor fluctuations linked to external market events.  
+**Key observations:**
+- **Consistent Growth:** The model reinforced Apple’s long-term upward momentum, with only minor fluctuations linked to external market factors.  
 - **Model Accuracy:** Metrics such as RMSE and MAPE demonstrated strong predictive reliability.  
-- **Residual Validation:** Diagnostics confirmed that residuals were normally distributed and uncorrelated, ensuring the model’s stability.  
-- **Forecast Reliability:** Confidence intervals revealed that short-term forecasts are dependable for investor and analyst insights, though uncertainty increases over longer horizons.
+- **Residual Validation:** Diagnostics confirmed that residuals were normally distributed and uncorrelated, ensuring the model’s robustness.  
+- **Forecast Reliability:** Confidence intervals revealed that short-term forecasts are dependable for investor and analyst insights.
 
-This outcome validates the suitability of ARIMA for short-term stock forecasting and demonstrates its potential in financial time series modeling.
+This outcome validates the suitability of **ARIMA** for short-term stock forecasting and demonstrates its potential in financial time series modeling.
 
 ---
 
@@ -109,7 +105,8 @@ The ARIMA-based time series analysis of Apple Inc.’s stock prices effectively 
 The model met key assumptions of stationarity and independence, produced accurate predictions, and provided valuable decision-making insights for investors.
 
 ### 🔹 Recommendations
-- **For Investors:** Use ARIMA forecasts for short-term trading signals while continuously monitoring real-world events that could disrupt trends.  
+
+- **For Investors:** Use ARIMA forecasts for short-term trading signals while continuously monitoring real-world events that could affect performance.  
 - **For Analysts:** Incorporate additional explanatory variables (e.g., NASDAQ index, inflation rate, global market indicators) to enhance predictive accuracy.  
 - **For Ongoing Work:** Update the model regularly with new data to maintain relevance and reliability as market conditions evolve.
 
@@ -121,14 +118,19 @@ The model met key assumptions of stationarity and independence, produced accurat
 
 - Kaur, J., Parmar, K.S., & Singh, S. (2023). *Autoregressive models in environmental forecasting time series: a theoretical and application review.* **Environmental Science and Pollution Research, 30(8)**, 19617–19641. [https://doi.org/10.1007/s11356-023-25148-9](https://doi.org/10.1007/s11356-023-25148-9)
 
---
+---
 
 ## 👤 Author
 
 **Oyin**  
 _Data Analyst & Researcher_  
-📊 [GitHub Profile](https://github.com/oyinkansolaadetoyinbo)
+📊 [GitHub Profile](https://github.com/oyinkansolaadetoyinbo)  
+📧 Email: [Add your professional email address here]  
+📅 Created: October 2025  
 
+---
 
+## 🧾 License
 
-
+MIT License © 2025 Oyin  
+You are free to use, modify, and distribute this project with proper attribution.
