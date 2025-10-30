@@ -31,37 +31,66 @@ For this analysis, only the **Close price** was used because it reflects market 
 ## 🧮 Methods
 
 ### 1️⃣ Data Visualization
+:
+
+## 🧮 Methods
+
+### 1️⃣ Data Visualization
 ```r
 ggplot(close_prices, aes(x = Date, y = Close)) +
   geom_line(color = "blue") +
-  labs(title = "Apple Inc. Close Price Over Time",
-       x = "Date", y = "Close Price") +
+  labs(
+    title = "Apple Inc. Close Price Over Time",
+    x = "Date",
+    y = "Close Price"
+  ) +
   theme_minimal()
-Time Series Decomposition
+
+
+The plot above shows Apple’s daily closing stock prices over time.
+It reveals a strong upward trend—especially from the 2000s onward—driven by innovation and global market expansion.
+
+2️⃣ Time Series Decomposition
 close_ts <- ts(close_prices$Close, start = c(1980, 12), frequency = 252)
 decomposed_ts <- decompose(close_ts)
 plot(decomposed_ts)
-The decomposition reveals a strong upward trend, little to no seasonality, and random residuals (noise).
-Stationarity Testing
-adf_test <- adf.test(close_ts, alternative = "stationary")
-p-value > 0.05 → non-stationary
 
-Differencing applied → achieves stationarity
-ARIMA Modelling
+
+The decomposition separates the data into:
+
+Trend: steady long-term growth pattern.
+
+Seasonality: minimal, as stock prices are influenced more by market events than fixed seasonal cycles.
+
+Residuals: random noise capturing short-term fluctuations.
+
+3️⃣ Stationarity Testing
+adf_test <- adf.test(close_ts, alternative = "stationary")
+
+
+p-value > 0.05 → non-stationary, meaning the series has a trend.
+
+Applying first-order differencing makes the data stationary — a prerequisite for ARIMA modelling.
+
+4️⃣ ARIMA Modelling
 model <- auto.arima(close_ts)
 summary(model)
-The auto.arima() function automatically selects the best-fit ARIMA(p, d, q) model using the AIC criterion.
+
+
+The auto.arima() function automatically selects the best-fitting ARIMA(p, d, q) model using the AIC criterion.
+This approach ensures an optimal balance between model accuracy and complexity.
 
 5️⃣ Model Diagnostics
 checkresiduals(model)
-Residual diagnostics confirmed independence and normality, validating the model fit.
-
-6️⃣ Forecasting
-forecasted_values <- forecast(model, h = 30)
-plot(forecasted_values)
 
 
-Forecast results aligned with the historical upward trend, indicating continued growth potential.
+Residual diagnostics confirmed:
+
+Independence (no autocorrelation)
+
+Constant variance
+
+Approximate normality
 
 ✅ Key Findings
 
