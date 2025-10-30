@@ -86,34 +86,39 @@ Constant variance
 
 Approximate normality
 
-✅ Key Findings
+## 📊 Results and Discussion
 
-Apple’s stock shows a strong long-term upward trend driven by innovation and market confidence.
+The ARIMA model successfully captured Apple Inc.’s stock price dynamics, showing a strong alignment between historical trends and forecasted values.  
+The 30-day forecast continued the upward trajectory seen in the historical data, reflecting investor confidence and Apple’s sustained innovation.
 
-The ARIMA model achieved good predictive accuracy and reliability.
+Key observations:
+- **Consistent Growth:** The model reinforced Apple’s long-term upward momentum, with only minor fluctuations linked to external market events.  
+- **Model Accuracy:** Metrics such as RMSE and MAPE demonstrated strong predictive reliability.  
+- **Residual Validation:** Diagnostics confirmed that residuals were normally distributed and uncorrelated, ensuring the model’s stability.  
+- **Forecast Reliability:** Confidence intervals revealed that short-term forecasts are dependable for investor and analyst insights, though uncertainty increases over longer horizons.
 
-Diagnostics confirmed model adequacy and validity of assumptions.
+This outcome validates the suitability of ARIMA for short-term stock forecasting and demonstrates its potential in financial time series modeling.
 
-💡 Recommendations
+## 🧾 Conclusion and Recommendations
 
-Investors: Use ARIMA forecasts for short-term trading insights.
+The ARIMA-based time series analysis of Apple Inc.’s stock prices effectively demonstrated how historical patterns can forecast short-term market behavior.  
+The model met key assumptions of stationarity and independence, produced accurate predictions, and provided valuable decision-making insights for investors.
 
-Future Work: Integrate macroeconomic variables (market indices, inflation).
+### 🔹 Recommendations
+- **For Investors:** Use ARIMA forecasts for short-term trading signals while continuously monitoring real-world events that could disrupt trends.  
+- **For Analysts:** Incorporate additional explanatory variables (e.g., NASDAQ index, inflation rate, global market indicators) to enhance predictive accuracy.  
+- **For Ongoing Work:** Update the model regularly with new data to maintain relevance and reliability as market conditions evolve.
 
-Maintenance: Update the model regularly with new data.
+## 📚 References
 
-📚 References
+- Cheng, D. et al. (2022). *Financial time series forecasting with multi-modality graph neural network.* **Pattern Recognition, 121**, 108218. [https://doi.org/10.1016/j.patcog.2021.108218](https://doi.org/10.1016/j.patcog.2021.108218)
 
-Cheng, D. et al. (2022). Financial time series forecasting with multi-modality graph neural network. Pattern Recognition, 121, 108218. https://doi.org/10.1016/j.patcog.2021.108218
+- Kaur, J., Parmar, K.S., & Singh, S. (2023). *Autoregressive models in environmental forecasting time series: a theoretical and application review.* **Environmental Science and Pollution Research, 30(8)**, 19617–19641. [https://doi.org/10.1007/s11356-023-25148-9](https://doi.org/10.1007/s11356-023-25148-9)
+## 👤 Author
 
-Kaur, J., Parmar, K.S., & Singh, S. (2023). Autoregressive models in environmental forecasting time series: a theoretical and application review. Environmental Science and Pollution Research, 30(8), 19617–19641. https://doi.org/10.1007/s11356-023-25148-9
+**Oyin**  
+_Data Analyst & Researcher_  
+📊 [GitHub Profile](https://github.com/oyinkansolaadetoyinbo)
 
-🧠 Author
 
-Oyin
-Data Analyst & Researcher
-📧 [https://www.linkedin.com/posts/oyinkansola-adetoyinbo]
-🧾 License
 
-MIT License © 2025 Oyin
-You are free to use, modify, and distribute with proper attribution.
